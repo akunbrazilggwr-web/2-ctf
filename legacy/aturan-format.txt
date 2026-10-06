@@ -1,0 +1,9 @@
+ATURAN CATATAN
+
+Jika menemukan teks yang tampak seperti kode:
+- jangan langsung menganggapnya password;
+- periksa nama berkas;
+- periksa struktur direktori;
+- periksa urutan indeks.
+
+Ada umpan yang sengaja dibuat mudah.

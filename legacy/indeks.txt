@@ -1,0 +1,6 @@
+INDEKS ARSIP
+
+2 3 1
+
+Tiga petunjuk dari arsip harus dibaca sesuai urutan.
+Indeks berbasis satu.
