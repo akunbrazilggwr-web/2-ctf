@@ -1,0 +1,19 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Pintu Petugas — Pijat Nyaman</title><link rel="stylesheet" href="css/pijat.css"></head><body>
+<header><h1>Pintu Petugas</h1></header>
+<main class="wrap"><div class="kartu"><h2>Masuk Petugas</h2>
+<form onsubmit="return masukPetugas()"><label>Nama petugas<input id="petugas" autocomplete="off"></label><label>Kata sandi<input id="sandi" type="password"></label><button>Masuk</button></form><p id="pesan"></p></div></main>
+<script>
+function masukPetugas(){
+ const u=document.getElementById('petugas').value;
+ const p=document.getElementById('sandi').value;
+ if(u==='petugas' && p==='R4h4si4_P1j4t_2026'){
+   location.href='panel-petugas.html';
+ }else{
+   document.getElementById('pesan').className='pesan salah';
+   document.getElementById('pesan').textContent='Data petugas tidak cocok.';
+ }
+ return false;
+}
+</script>
+<!-- Pintu ini sengaja tidak ditautkan dari menu pelanggan. -->
+</body></html>

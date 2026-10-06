@@ -1,0 +1,22 @@
+{
+  "versi": "3.1",
+  "nama": "Pijat Nyaman",
+  "berkas_publik": [
+    "index.html",
+    "layanan.html",
+    "tentang.html",
+    "kontak.html",
+    "login.html",
+    "register.html",
+    "akun.html",
+    "reservasi.html"
+  ],
+  "arsip": [
+    "legacy/README-LAMA.txt",
+    "legacy/indeks.txt",
+    "legacy/aturan-format.txt",
+    "legacy/ruang-terapis/jadwal.html",
+    "legacy/arsip/2024/catatan-17/halaman.html"
+  ],
+  "catatan": "Nama menu bukan satu-satunya cara menuju halaman."
+}
